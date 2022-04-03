@@ -1,8 +1,9 @@
 {
-  "name": "MyCrypto",
+  "name": "my-crypto",
   "author": "MyCryptoHQ",
   "version": "2.2.5",
   "main": "main.js",
+  "license": "MIT",
   "description": "MyCrypto is a free, open-source interface for interacting with the blockchain",
   "repository": "https://github.com/MyCryptoHQ/MyCrypto",
   "engines": {
@@ -266,8 +267,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && yarn tscheck",
-      "pre-push": "yarn test"
+      "pre-commit": "lint-staged && yarn tscheck"
     }
   }
 }
